@@ -8,8 +8,21 @@
 	min-width: 320px;
 }
 
+.content-wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.content-main {
+	width: 100%;
+}
+
+
 .wrapper {
-	max-width: 1350px;
+	max-width: 1320px;
 	margin: 0 auto;
 }
 
