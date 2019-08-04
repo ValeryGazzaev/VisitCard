@@ -1,0 +1,82 @@
+.skills {
+	background-color: #fff;
+	padding: 68px 30px 94px 97px;
+}
+
+.skills .title {
+	position: relative;
+	max-width: 310px;
+	line-height: 80px;
+	margin-bottom: 80px;
+}
+
+.skills .title::before {
+	position: absolute;
+	content: "";
+	width: 65px;
+	height: 1px;
+	bottom: 0;
+	background-color: #3971ff;
+	transition: all 0.3s ease;
+}
+
+.skills .title::after {
+	position: absolute;
+	content: "";
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	bottom: -2px;
+	left: 65px;
+	border: 1px solid #3971ff;
+	transition: all 0.3s ease;
+}
+
+.skills:hover .title::before {
+	width: 98%;
+}
+
+.skills:hover .title::after {
+	transform: translateX(239px);
+}
+
+.skills-wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.skills-wrap p {
+	position: relative;
+	flex-basis: 445px;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 60px;
+	color: #4c4c4c;
+}
+
+.skills-wrap p:nth-child(odd) {
+	margin-right: 30px;
+}
+
+.skills-wrap p span {
+	position: absolute;
+	right: 0;
+}
+
+.skills-wrap p::before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	width: 100%;
+	height: 5px;
+	background-image: linear-gradient (45deg, rgba(57, 113, 255, 1), transparent);
+}
+
