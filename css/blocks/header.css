@@ -167,18 +167,14 @@
 	width: 150px;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1100px) {
 	.header-main-wrap {
 		left: 50%;
 		padding-left: 30px;
 	}
 }
 
-@media (max-width: 630px) {
-	.header-main-wrap {
-		left: 50%;
-		padding-left: 30px;
-	}
+@media (max-width: 660px) {
 	.header-main p:nth-child(1) {
 		font-size: 22px;
 	}

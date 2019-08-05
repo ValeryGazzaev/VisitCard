@@ -21,7 +21,7 @@
 }
 
 .wrapper {
-	max-width: 1320px;
+	max-width: 1350px;
 	margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@
 	text-transform: uppercase;
 	font-family: 'Exo 2', sans-serif;
 	font-size: 30px;
-	line-height: 60px;
+	line-height: 30px;
 	font-weight: 600;
 	color: #333333;
 }
