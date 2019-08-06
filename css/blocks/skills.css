@@ -38,7 +38,7 @@
 
 .skills:hover .title::after {
 	-webkit-transform: translateX(239px);
-	        transform: translateX(239px);
+	transform: translateX(239px);
 }
 
 .skills-wrap {
@@ -99,10 +99,9 @@
 	.skills:hover .title::before {
 		width: 65px;
 	}
-
 	.skills:hover .title::after {
 		-webkit-transform: translateX(0);
-		        transform: translateX(0);
+		transform: translateX(0);
 	}
 }
 
@@ -118,7 +117,6 @@
 	.skills .title::before {
 		bottom: -20px;
 	}
-
 	.skills .title::after {
 		bottom: -22px;
 	}
