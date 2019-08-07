@@ -57,6 +57,7 @@
 }
 
 .project-blocks a {
+	position: relative;
 	display: block;
 	max-width: 445px;
 }
@@ -64,6 +65,25 @@
 .project-blocks a img {
 	display: block;
 	width: 100%;
+}
+
+.project-blocks a:hover:before {
+	position: absolute;
+	content: "+";
+	font-family: 'Exo 2', sans-serif;
+	font-size: 141.5px;
+	height: 300px;
+	line-height: 290px;
+	font-weight: 100;
+	text-align: center;
+	vertical-align: middle;
+	color: #3971ff;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #f3f3f3;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.20);
+	opacity: 0.95;
 }
 
 
