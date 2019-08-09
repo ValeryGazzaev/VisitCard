@@ -232,7 +232,7 @@
 	}
 }
 
-@media (max-width: 540px) {
+@media (max-width: 640px) {
 	.aside {
 		padding: 0 30px;
 		box-shadow: none;

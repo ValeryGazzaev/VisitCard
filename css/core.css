@@ -6,6 +6,7 @@
 .container {
 	width: 100%;
 	min-width: 320px;
+		overflow-x: hidden;
 }
 
 .content-wrap {
@@ -16,7 +17,7 @@
 	display: flex;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 640px) {
 	.content-wrap {
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
