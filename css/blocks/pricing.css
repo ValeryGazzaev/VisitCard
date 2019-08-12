@@ -136,7 +136,7 @@
 
 @media (max-width: 768px) {
 	.pricing {
-		padding: 40px 30px 4px 60px;
+		padding: 40px 30px 30px 60px;
 	}
 	.pricing .title {
 		font-size: 28px;
@@ -154,7 +154,7 @@
 
 @media (max-width: 565px) {
 	.pricing {
-		padding: 30px 30px 4px 30px;
+		padding: 30px;
 	}
 	.pricing .title {
 		font-size: 20px;
