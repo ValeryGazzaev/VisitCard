@@ -331,7 +331,7 @@
 						<div class="contacts-block">
 							<div class="location">
 								<p>Location</p>
-								<p>350 Fifth Avenue , 110th floor. 3100 New York.</p>
+								<p><a href="#">350 Fifth Avenue , 110th floor. 3100 New York.</a></p>
 							</div>
 							<div class="contact">
 								<p>Contact</p>
@@ -348,14 +348,16 @@
 						<form class="send-block" action="echo" method="post">
 							<input type="text" name="your-name" placeholder="Your Name">
 							<input type="email" name="e-mail" placeholder="Your Email">
-							<select placeholder="What Are You Interested">
-								<option value="">What Are You Interested</option>
-								<option value="first">Design</option>
-								<option value="second">Art</option>
-								<option value="third">Practice</option>
-							</select>
-
-							<textarea rows="" cols=""></textarea>
+							<div class="select-wrap">
+								<span></span>
+								<select>
+									<option value="">What Are You Interested</option>
+									<option value="first">Design</option>
+									<option value="second">Art</option>
+									<option value="third">Practice</option>
+								</select>
+							</div>
+							<textarea rows="" cols="" placeholder="Type Your Message"></textarea>
 							<a href="#">Lets Talk To Me</a>
 						</form>
 					</div>

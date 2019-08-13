@@ -37,8 +37,8 @@
 }
 
 .post:hover .title::after {
-	-webkit-transform: translateX(120px);
-	transform: translateX(120px);
+	-webkit-transform: translateX(118px);
+	transform: translateX(118px);
 }
 
 .post-slides-text {
